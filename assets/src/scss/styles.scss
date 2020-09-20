@@ -1,0 +1,31 @@
+@import 'variable';
+@import 'homepage';
+
+// Framework Design
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 51px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,122 @@
+Header {
+  position: relative;
+  height: 80vh;
+  margin-bottom: 50px;
+  padding-top: 100px;
+  background-size: cover;
+  color: $white;
+
+  .mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: $banner-mask;
+  }
+
+  .navbar {
+    padding-top: 18px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+
+    .navbar-nav .nav-link {
+      margin-left: 20px;
+      color: $white;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    .navbar-nav .active .nav-link {
+      color: $primary-color;
+    }
+
+    .navbar-nav .nav-link.apply-btn {
+      padding: 10px 20px;
+      border: 2px solid $white;
+      border-radius: 30px;
+
+      &:hover {
+        background-color: $white;
+        color: $black;
+      }
+    }
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .navbar-brand {
+    width: 140px;
+  }
+
+  .header-content {
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+  }
+
+  .title {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+
+  .description {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .header-btn {
+    padding: 10px 20px;
+    background-color: $primary-color;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+
+    a {
+      color: $white;
+    }
+
+    &:hover {
+      background-color: $dark-primary;
+    }
+  }
+}
+
+.hompage-content {
+  .hompage-content-wrapper {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .homepage-video {
+    display: flex;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  hr {
+    margin: 40px 0 60px;
+  }
+}
