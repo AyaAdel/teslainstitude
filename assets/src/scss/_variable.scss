@@ -5,5 +5,11 @@ $banner-mask: rgba(0, 0, 0, 0.3);
 $white: #fff;
 $black: #272727;
 $gray: #1a1a1a26;
+$dark-gray: #1a1a1ab3;
 
 // Mixin
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
