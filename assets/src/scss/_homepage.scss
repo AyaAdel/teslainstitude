@@ -44,7 +44,8 @@
         color: $white;
       }
 
-      &:hover {
+      &:hover,
+      &:focus {
         background-color: $dark-primary;
       }
     }
