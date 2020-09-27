@@ -1,0 +1,57 @@
+@media (max-width: 1199px) {
+  .homepage {
+    .hompage-content {
+      padding-top: 0;
+
+      hr {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-light .navbar-toggler {
+    padding: 2px 5px;
+    background-color: $white;
+    border-color: $white;
+
+    &:hover,
+    &:focus {
+      background-color: $primary-color;
+      border-color: $primary-color;
+    }
+  }
+
+  .navbar {
+    .navbar-nav {
+      background-color: $primary-color;
+
+      .active .nav-link,
+      .nav-link:hover {
+        color: $white;
+      }
+
+      .nav-link {
+        margin: 5px 0;
+        color: $black;
+      }
+
+      .nav-link.apply-btn {
+        margin-bottom: 10px;
+        border-color: $black;
+
+        &:hover,
+        &:focus {
+          border-color: $white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 45px;
+  }
+}
