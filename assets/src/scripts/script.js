@@ -1,9 +1,9 @@
-$(document).ready(function () {
-  $('.navbar-light .navbar-toggler').click(function () {
-    $('.shadow').show();
-  });
+const shadow = document.querySelector('.shadow');
+const navbarList = document.querySelector('.navbar-collapse');
 
-  $('.shadow').click(function () {
-    $('.navbar-collapse').removeClass('show');
-  });
-});
+const displayShadow = () => shadow.classList.add('show');
+
+const hideNavbarList = () => {
+  navbarList.classList.remove('show');
+  shadow.classList.remove('show');
+};
