@@ -1,0 +1,67 @@
+.testimonials {
+  header {
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+    color: $white;
+
+    .header-content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      @include flex-center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+  .content {
+    padding: 50px 0;
+
+    h2 {
+      margin-bottom: 40px;
+      font-weight: 600;
+      font-family: adopeBoldItalic;
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        display: flex;
+      }
+
+      img {
+        width: 210px;
+        height: 210px;
+      }
+
+      figure {
+        margin: 0 40px 0 0;
+      }
+    }
+
+    .olivia-photo {
+      margin: 0 0 0 40px;
+    }
+
+
+    .item-content-title {
+      margin-bottom: 15px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .item-content-p {
+      margin-left: 30px;
+      color: $dark-gray;
+    }
+
+    hr {
+      margin: 50px 0;
+    }
+  }
+}

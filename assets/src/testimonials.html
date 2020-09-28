@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  @@include('./partials/head.html')
+  <title>Tesla Institute - Testimonials</title>
+</head>
+
+<body class="testimonials">
+  <div class="shadow" onclick="hideNavbarList()"></div>
+  <header style="background-image: url('./imgs/courses-banner.jpg')">
+    <div class="mask"></div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      @@include('./partials/navbar-logo.html')
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./prerequisites.html">PreRequisites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./courses.html">Courses & Faculty</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link apply-btn" href="#">Apply</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="header-content">
+      <h1>TESTIMONIALS</h1>
+    </div>
+  </header>
+  <div class="content">
+    <div class="container">
+      <div class="content-wrapper">
+        <h2>Our Instructors are incredibly well-rated</h2>
+        <ul>
+          <li>
+            <figure>
+              <img src="./imgs/steve.png" alt="Steve Photo">
+            </figure>
+            <div class="item-content">
+              <p class="item-content-title">
+                STEVE DASHNAW<br>
+                ARMRIT DIRECTOR<br>
+                COLUMBIA UNIVERSITY DEPARTMENT OF RADIOLOGY
+              </p>
+              <p class="item-content-p">
+                <i>Tom is devoted to MRI education. His lectures are very informative, done with full knowledge of the
+                  presenting topic, in well-structured organization, and he has the ability to keep the audience's
+                  attention throughout the duration of the lecture. Personally, I enjoy his talks and look forward
+                  them.</i>
+              </p>
+            </div>
+          </li>
+          <hr>
+          <li class="d-none d-sm-flex">
+            <div class="item-content">
+              <p class="item-content-title">
+                OLIVIA BUNCH, RT (MR)<br>
+                MRI TECHNOLOGIST<br>
+                FAIRFAX MRI CENTER AT RESTON
+              </p>
+              <p class="item-content-p">
+                <i>"Tom is a very effective teacher. Brought a technical subject down to a level of understanding. He
+                  passes his enthusiasm for MR on to his students. Because of his instruction, I felt prepared to enter
+                  the MRI workforce and pass my registry exam."</i>
+              </p>
+            </div>
+            <figure class="olivia-photo">
+              <img src="./imgs/olivia.png" alt="Olivia Photo">
+            </figure>
+          </li>
+          <li class="d-flex d-sm-none">
+            <figure class="olivia-photo">
+              <img src="./imgs/olivia.png" alt="Olivia Photo">
+            </figure>
+            <div class="item-content">
+              <p class="item-content-title">
+                OLIVIA BUNCH, RT (MR)<br>
+                MRI TECHNOLOGIST<br>
+                FAIRFAX MRI CENTER AT RESTON
+              </p>
+              <p class="item-content-p">
+                <i>"Tom is a very effective teacher. Brought a technical subject down to a level of understanding. He
+                  passes his enthusiasm for MR on to his students. Because of his instruction, I felt prepared to enter
+                  the MRI workforce and pass my registry exam."</i>
+              </p>
+            </div>
+          </li>
+          <hr>
+          <li>
+            <figure>
+              <img src="./imgs/elana.png" alt="Elana Photo">
+            </figure>
+            <div class="item-content">
+              <p class="item-content-title">
+                ELANA DANILOVA, ARMRIT<br>
+                3D IMAGING SPECIALIST<br>
+                STANFORD UNIVERSITY
+              </p>
+              <p class="item-content-p">
+                <i>Tom is a knowledgeable technologist, passionate educator, and an amazing speaker. All his lectures
+                  are sophisticated in content and easy to understand. Tom's passion for MRI is contagious</i>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  @@include('./partials/scripts.html')
+</body>
+
+</html>
