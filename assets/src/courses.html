@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  @@include('./partials/head.html')
+  <title>Tesla Institute - Courses & Faculty</title>
+</head>
+
+<body class="courses">
+  <div class="shadow" onclick="hideNavbarList()"></div>
+  <header style="background-image: url('./imgs/courses-banner.jpg')">
+    <div class="mask"></div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      @@include('./partials/navbar-logo.html')
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./prerequisites.html">PreRequisites</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./courses.html">Courses & Faculty</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link apply-btn" href="#">Apply</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="header-content">
+      <h1>COURSES AND FACULTY</h1>
+    </div>
+  </header>
+  <div class="content">
+    <div class="container">
+      <div class="content-wrapper">
+        <h2>Faculty</h2>
+        <ul>
+          <li>
+            <figure>
+              <img src="./imgs/tom.jpg" alt="Tom Photo" class="tom-photo">
+            </figure>
+            <div class="director">
+              <p class="item-content-title">TOM SCHRACK, ARMRIT, CS - PROGRAM DIRECTOR</p>
+              <p class="item-content-p">Tom Schrack has been a leader in the MR field for 29 years. Tom'ss career
+                includes advanced MR
+                applications development for GE Healthcare, being the Manager of MR Education and Technical Development
+                for Fairfax Radiological Consultants, and an Adjunct Instructor of MR Physics and Clinical Practices for
+                Northern Virginia Community College. Tom has published numerous educational articles and modules for the
+                International Center for Post Graduate Medical Education including Cardiac MR, Musculoskeletal MRI, and
+                Technical Considerations of MR Imaging. Tom lectures annually to MRI technologists on a broad range of
+                MR topics including Fetal MR, Cardiac, Prostate, 3.0 Tesla imaging, and Practical Uses of MRI Physics.
+              </p>
+              <p class="item-content-p">Tom is credentialed by The American Registry of MRI Technologists and The
+                Institute for Credentialing
+                Excellence. He is a graduate of James Madison University and the Pittsburgh NMR Institute.</p>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <img src="./imgs/Jim.jpeg" alt="Jim Photo" class="jim-photo">
+            </figure>
+            <div class="advisor">
+              <p class="item-content-title">JIM MENGEL - ADVISOR</p>
+              <p class="item-content-p">Jim has more than 15 years with GE Healthcare holding positions as an MRI Sales
+                Specialist and an
+                Account Executive. In addition, Jim has had an important role in GE's renowned Commercial Leadership
+                Program (CLP). In this role Jim has mentored many GE Leadership trainees.</p>
+              <p class="item-content-p">Jim also 20+ years of experience as a business owner in the fields in finance,
+                management, sales,
+                training and leadership roles.
+              </p>
+              <p class="item-content-p">Jim is a graduate of the University of Maryland. Married with 3 adult children
+                and 2 grandchildren.
+                Jim's daughter, and son-in-law are all graduates of GE's CLP program.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  @@include('./partials/scripts.html')
+</body>
+
+</html>

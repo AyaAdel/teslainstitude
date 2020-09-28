@@ -1,0 +1,72 @@
+.courses {
+  header {
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+    color: $white;
+
+    .header-content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      @include flex-center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+  .content {
+    padding: 50px 0;
+
+    h2 {
+      margin-bottom: 30px;
+      font-weight: 600;
+      font-family: adopeBoldItalic;
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        margin-bottom: 30px;
+        display: flex;
+      }
+
+      li:last-child {
+        margin-bottom: 0;
+      }
+
+      figure {
+        margin-right: 50px;
+      }
+    }
+
+    .tom-photo {
+      width: 220px;
+      height: 220px;
+    }
+
+    .jim-photo {
+      width: 220px;
+      height: 280px;
+    }
+
+    .item-content-title {
+      margin-bottom: 15px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .item-content-p {
+      margin-bottom: 20px;
+      color: $dark-gray;
+    }
+
+    .item-content-p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
