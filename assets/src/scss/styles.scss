@@ -3,6 +3,7 @@
 @import 'prerequisites';
 @import 'courses';
 @import 'testimonials';
+@import 'apply';
 
 // Framework Design
 * {
@@ -96,6 +97,11 @@ a:hover {
       color: $black;
     }
   }
+}
+
+.navbar-nav .active .nav-link.apply-btn {
+  background-color: $white;
+  color: $black;
 }
 
 .navbar-nav {
