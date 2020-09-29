@@ -8,7 +8,6 @@
     .header-content {
       position: relative;
       z-index: 2;
-      width: 70%;
       height: 100%;
       margin: 0 auto;
       text-align: center;
@@ -25,8 +24,16 @@
       font-size: 20px;
     }
 
+    .leadership {
+      margin-bottom: 25px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      grid-gap: 20px;
+    }
+
     .description {
-      margin-bottom: 30px;
       font-size: 20px;
     }
 
@@ -48,6 +55,15 @@
       &:focus {
         background-color: $dark-primary;
       }
+    }
+
+    .homepage-video {
+      display: flex;
+      @include flex-center;
+    }
+
+    iframe {
+      width: 100%;
     }
 
     .jump-link {
@@ -78,19 +94,6 @@
   .hompage-content {
     margin-bottom: 40px;
     padding-top: 50px;
-
-    .homepage-video {
-      display: flex;
-      @include flex-center;
-    }
-
-    iframe {
-      width: 100%;
-    }
-
-    hr {
-      margin: 25px 0 60px;
-    }
 
     .curriculum-coupled {
       margin-bottom: 40px;
