@@ -6,7 +6,7 @@
     color: $white;
 
     .mask {
-      background-color: rgba(0,0,0,.7);
+      background-color: rgba(0, 0, 0, 0.7);
     }
 
     .header-content {
@@ -24,11 +24,74 @@
   .content {
     padding: 50px 0;
 
-    // h2 {
-    //   margin-bottom: 40px;
-    //   font-weight: 600;
-    //   font-family: adopeBoldItalic;
-    //   text-align: center;
-    // }
+    .content-wrapper {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      grid-gap: 2%;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+      font-weight: 600;
+      font-family: adopeBoldItalic;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: 600;
+      display: block;
+
+      span {
+        color: $red;
+      }
+    }
+
+    input,
+    textarea {
+      width: 90%;
+      padding: 13px;
+      border: 2px solid $black;
+      border-radius: 6px;
+
+      &:hover,
+      &:focus {
+        border: 2px solid $primary-color;
+        outline: none;
+      }
+    }
+
+    button {
+      padding: 15px 20px;
+      background-color: $primary-color;
+      color: $white;
+      font-size: 18px;
+      font-weight: 600;
+      display: block;
+
+      &:hover,
+      &:focus {
+        background-color: $dark-primary;
+      }
+    }
+
+    .tuition-content {
+      padding: 10px;
+      background-color: $light-primary;
+
+      h2 {
+        margin-bottom: 20px;
+      }
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+    
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
 }

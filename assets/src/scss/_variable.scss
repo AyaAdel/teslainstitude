@@ -1,11 +1,13 @@
 // Variables
 $primary-color: #36b3a8;
 $dark-primary: #36b3a8cc;
+$light-primary: rgba(54, 179, 168, 0.1);
 $banner-mask: rgba(0, 0, 0, 0.3);
 $white: #fff;
 $black: #272727;
 $gray: #1a1a1a26;
 $dark-gray: #1a1a1ab3;
+$red: #f00;
 
 // Mixin
 @mixin flex-center {
