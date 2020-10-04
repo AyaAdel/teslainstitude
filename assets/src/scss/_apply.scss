@@ -27,7 +27,7 @@
     .content-wrapper {
       display: grid;
       grid-template-columns: 60% 40%;
-      grid-gap: 2%;
+      grid-gap: 3% 2%;
     }
 
     h2 {
@@ -80,6 +80,7 @@
     .tuition-content {
       padding: 10px;
       background-color: $light-primary;
+      border-radius: 6px;
 
       h2 {
         margin-bottom: 20px;
